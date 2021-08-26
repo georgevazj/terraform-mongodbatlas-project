@@ -9,8 +9,6 @@ terraform {
 
 # Configure the MongoDB Atlas provider
 provider "mongodbatlas" {
-  public_key = var.mongodbatlas_public_key
-  private_key = var.mongodbatlas_private_key
 }
 
 # MongoDB Atlas resources
